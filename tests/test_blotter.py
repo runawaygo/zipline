@@ -330,7 +330,7 @@ class BlotterTestCase(WithCreateBarData,
 
         blotter.prune_orders([other_order])
 
-    def test_order_batch_matches_multi_order(self):
+    def test_batch_order_matches_multiple_orders(self):
         """
         Ensure the effect of order_batch is the same as multiple calls to
         order.
